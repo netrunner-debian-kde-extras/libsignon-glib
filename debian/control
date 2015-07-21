@@ -1,0 +1,66 @@
+Source: libsignon-glib
+Section: libs
+Priority: optional
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Diane Trout <diane@debian.org>
+Build-Depends: debhelper (>= 9),
+               autotools-dev,
+	       dh-autoreconf,
+	       gtk-doc-tools,
+	       gobject-introspection,
+	       libgirepository1.0-dev,
+               libglib2.0-dev (>= 2.32),
+	       signond-dev (>= 8.55),
+Standards-Version: 3.9.6
+#XS-Testsuite: autopkgtest
+Homepage: https://gitlab.com/accounts-sso/libsignon-glib
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-extras/libsignon-glib.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/libsignon-glib.git
+
+Package: libsignon-glib1
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: GLib Library for managing SSO credentials
+ This is effectively a GLib binding for the D-Bus API
+ provided by signond. It is part of the accounts-sso
+ project.
+
+Package: libsignon-glib-dev
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: development files for signon-glib sso API.
+ This is effectively a GLib binding for the D-Bus API
+ provided by signond. It is part of the accounts-sso
+ project.
+ .
+ This provides development headers
+
+Package: gir1.2-libsignon-1.0
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: typelib for libsignon-glib1
+ This is effectively a GLib binding for the D-Bus API
+ provided by signond. It is part of the accounts-sso
+ project.
+ .
+ This package can be used by other packages using the GIRepository format to
+ generate dynamic bindings for libaccounts-glib0
+
+
+Package: libsignon-glib-dbg
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: GLib Library for managing SSO credentials
+ This is effectively a GLib binding for the D-Bus API
+ provided by signond. It is part of the accounts-sso
+ project.
+ .
+ This provides debug files.

@@ -1,0 +1,5 @@
+usr/include/libsignon-glib/*.h
+usr/lib/*/pkgconfig/libsignon-glib.pc
+usr/lib/*/libsignon-glib.so
+usr/share/gir-1.0/Signon-1.0.gir
+usr/share/vala/vapi/signon.vapi
