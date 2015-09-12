@@ -43,7 +43,7 @@ Description: development files for signon-glib sso API
  .
  This provides development headers
 
-Package: gir1.2-libsignon-1.0
+Package: gir1.2-signon-1.0
 Section: introspection
 Architecture: any
 Multi-Arch: same
