@@ -1,0 +1,15 @@
+Author: Diane Trout <diane@debian.org>
+Description: @pluginlibdir@ is never set in 1.12 and so
+ generates a lintian error message, about pkg-config-bad-directive.
+ This removes it for the moment.
+Bug: https://gitlab.com/accounts-sso/libsignon-glib/issues/1
+--- a/libsignon-glib.pc.in
++++ b/libsignon-glib.pc.in
+@@ -2,7 +2,6 @@
+ exec_prefix=@exec_prefix@
+ libdir=@libdir@
+ includedir=@includedir@
+-pluginlibdir=@pluginlibdir@
+ 
+ Name: libsignon-glib
+ Description: A low-level library for managing account credentials.
