@@ -34,7 +34,7 @@ Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends},
  libsignon-glib1 (= ${binary:Version}),
- gir1.2-libsignon-1.0,
+ gir1.2-signon-1.0,
  signond-dev
 Description: development files for signon-glib sso API
  This is effectively a GLib binding for the D-Bus API
