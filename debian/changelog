@@ -1,5 +1,5 @@
-libsignon-glib (1.12-1~) UNRELEASED; urgency=medium
+libsignon-glib (1.12-1) unstable; urgency=medium
 
   * Initial Release.
 
- -- Diane Trout <diane@debian.org>  Thu, 23 Apr 2015 19:36:49 +0200
+ -- Diane Trout <diane@debian.org>  Sat, 19 Sep 2015 13:57:09 -0700
