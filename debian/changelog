@@ -1,8 +1,12 @@
 libsignon-glib (1.12-2) UNRELEASED; urgency=medium
 
+  [ Rohan Garg ]
   * Fix install files
 
- -- Rohan Garg <rohan@kde.org>  Tue, 01 Dec 2015 21:03:02 +0100
+  [ Diane Trout ]
+  * Change my address back to my personal account.
+
+ -- Diane Trout <diane@ghic.org>  Tue, 01 Dec 2015 12:13:31 -0800
 
 libsignon-glib (1.12-1) unstable; urgency=medium
 
