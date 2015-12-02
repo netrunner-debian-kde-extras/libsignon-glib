@@ -1,1 +1,2 @@
 remove-pluginlibdir.patch
+disable-deprecation-error.patch
